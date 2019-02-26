@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body,html {
+	font-family: 'Raleway', sans-serif;
+}
+
+.h1 {
+	font-size: 20pt;
+	font-family: 'Raleway', sans-serif;
+}
+
+.h0 {
+	font-size: 30pt;
+	font-family: 'Raleway', sans-serif;
+}
+
+#header a {
+	text-decoration: none;
+}
+
+#wrapper {
+	margin-left: 3%;
+	margin-right: 3%;
+	font-family: 'Raleway', sans-serif;
+}
+
+.header_title {
+	font-size: 20pt;
+	font-family: 'Raleway', sans-serif;
+}
+
+#nav {
+	border-top: 1px solid black;
+}
+
+#nav a {
+	color: black;
+	text-decoration: none;
+	font-size: 14pt;
+}
+
+#nav span.hover-button:hover {
+	border-bottom: 0.5px solid black;
+}
+
+#nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#nav li {
+	display: inline;
+}
+
+#nav li a {
+	padding: 18px;
+}
+
+#promos {
+	height: 75vh;
+	background-image: url("promo.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+#promo_rvk {
+	text-align: center;
+	color: black;
+	background-color: white;
+	width: 100%;
+}
+
+#promo_rvk p {
+}
