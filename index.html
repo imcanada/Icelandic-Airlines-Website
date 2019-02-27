@@ -1,15 +1,50 @@
 <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="ie6 lt-ie10 lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 lt-ie10 lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 lt-ie10 lt-ie9" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="ie9 lt-ie10" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html lang="en"> <!--<![endif]-->
+
+<!--
+	site designed by imcanada.
+	licensed under Mozilla Public License 2.0
+	License: https://www.mozilla.org/en-US/MPL/2.0/
+	License in plain english: https://tldrlegal.com/license/mozilla-public-license-2.0-(mpl-2)
+-->
+
 <html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="Description" content="Íslenskt innan & utanlands flugfélag. Við fljúgum til Akureyrar, Eigilsstaða, Grænlands, Færeyja og fleiri staða á ódýru verði.">
+	<meta name="Keywords" content="Iceland, Icelandic Airlines, Airlines, Airlines in Iceland, European Airlines, Airlines in europe, innanlandsflug, flugfélag, ísland, flugfélög á íslandi">
+	<meta name="author" content="imcanada">
+	<!-- Icons -->
+	<link rel="apple-touch-icon" sizes="57x57" href="icon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="icon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="icon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="icon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="icon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="icon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="icon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="icon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="icon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="icon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="icon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+	<link rel="manifest" href="icons/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="icon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<!-- End icons -->
 	<title>Icelandic Airlines</title>
 </head>
 <body>
 	<div id="wrapper">
 		<div id="header">
-			<br>
+			<div style="height: 5px;"></div>
 			<p><span class="header_title">Icelandic Airlines</span><span style="float: right;"><a href="en.html">English</a></span></p>
 		</div>
 		<div id="nav">
@@ -30,7 +65,7 @@
 				<p>Frá 9.900ISK um helgina!<br>Taktu flugið!<bR><br></p>
 			</div>
 		</div>
-		<div id="3d_content">
+		<div id="s3d_content">
 			<div id="flug">
 				<p class="h1">Flug:</p>
 				<div id="flug-wrapper">
@@ -47,15 +82,42 @@
 							<p style="margin-top: 0;">Flug til Eigilsstaða með Icelandic Airlines á 4.790ISK <a href="boka.html">Meira.</a></p>
 						</div>
 					</div>
+					<br>
+					<div id="flug01">
+						<div id="flug-content-wrapper">
+							<p class="h1" style="margin-bottom: 0;">Nuuk, Grænlandi</p>
+							<p style="margin-top: 0;">Flug til Nuuk með Icelandic Airlines á 16.990ISK <a href="boka.html">Meira.</a></p>
+						</div>
+					</div>
+					<br>
+					<div id="flug01">
+						<div id="flug-content-wrapper">
+							<p class="h1" style="margin-bottom: 0;">Færeyjar</p>
+							<p style="margin-top: 0;">Flug til Færeyja með Icelandic Airlines á 12.870ISK <a href="boka.html">Meira.</a></p>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div id="bokun">
 				<p class="h1">Bóka flug</p>
+					<form method="post" action="bokun.php">
+					<label>Brottför: </label><input type="date"><br>
+					<label>Koma: </label><input type="date"><br><br>
+					<label>Farþegar:</label><br>
+					<label>Fullorðnir: <input type="number"><br>
+					<label>Börn (5 - 11): </label><input type="number"><br>
+					<label>Ungabörn (0 - 5): </label><input type="number">
+					<br><br><input type="submit" value="Áfram">
+				</form>
 			</div>
 		</div>
-	</div>
-	<div id="footer">
-		<p>Copyright &copy; 2019 - Icelandic Airlines Ehf. IAO Offices, Reykjavíkurflugvöllur, Þorragata 10, 101 Reykjavík</p>
+		<br>
+		<div id="s4th_content">
+
+		</div>
 	</div>
 </body>
+<footer>
+		<p>Copyright &copy; 2019 - Icelandic Airlines Ehf.<br>Íslenska Flugrekstrarfélagið, Reykjavíkurflugvöllur, Þorragata 10, 101 Reykjavík</p>
+</footer>
 </html>
