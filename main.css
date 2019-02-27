@@ -78,3 +78,34 @@ body,html {
 
 #promo_rvk p {
 }
+
+#bokun {
+	text-align: right;
+	width: 20%;
+	float: left;
+}
+
+#flug {
+	text-align: left;
+	width: 80%;
+	float: left;
+}
+
+#flug-wrapper {
+	text-align: left;
+	margin-left: 1%;
+}
+
+#flug-content-wrapper {
+	margin-left: 2%;
+}
+
+#flug01 {
+	border: 1px solid black;
+	width: 60%;
+}
+
+#footer {
+	text-align: center;
+	width: 100%;
+}
